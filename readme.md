@@ -9,18 +9,18 @@
     <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Hands On 2s</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  In this project, I created a visually appealing and interactive website to showcase heroes and cards, utilizing HTML, JS, and CSS. The task involved distinct design elements for both the heroes and cards, ensuring a dynamic and engaging user experience.
 </div>
 
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=Ceji-B/WD-Hands-On-2)
 
 ---
 
@@ -57,7 +57,7 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
+In this project, I created a visually appealing and interactive website to showcase heroes and cards, utilizing HTML, JS, and CSS. The task involved distinct design elements for both the heroes and cards, ensuring a dynamic and engaging user experience.
 
 Guiding Question:
 - What is the project
@@ -68,9 +68,9 @@ Guiding Question:
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- Animation
+- Menu
+- Multiple pages
 
 ### Technology
 <!-- TODO: List of Technology Used -->
