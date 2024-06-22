@@ -2,23 +2,26 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 :root{
     --index: calc(1vw + 1vh);
     --transition: cubic-bezier(.1, .7, 0, 1);
+   
 }
 
 body{
     background-color: #141414;
 }
 
+
 img{
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    height: 40vh;
+    height: 30vh;
     
 }
 
@@ -49,17 +52,19 @@ a{
     align-items: center;
     justify-content: center;
     
+    
 }
 
 .items{
     display: flex;
     gap: 0.4rem;
     perspective: calc(var(--index) * 35);
+    
 }
 
 .item{
     width: calc(var(--index) * 3);
-    height: calc(var(--index) * 12);
+    height: calc(var(--index) * 10);
     background-color: #222;
     background-size: cover;
     background-position: center;
@@ -67,12 +72,13 @@ a{
     filter: grayscale(1) brightness(.5);
     transition: transform 1.25s var(--transition), filter 3s var(--transition), width 1.25s var(--transition);
     will-change: transform, filter, rotateY, width;
+    
 }
 
 .item::before, .item::after{
     content: '';
     position: absolute;
-    height: 70%;
+    height: 50%;
     width: 20px;
     right: calc(var(--index) * -1);
 }
@@ -142,8 +148,54 @@ a{
 	transform: translateZ(calc(var(--index) * 10));
     margin: 0 .45vw;
 }
+/* Card   */
 
+.card {
+    display: flex;
+    background-color: #ac7000;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px;
+    max-width: 700px;
+    text-align: center;
+    transition: transform 0.3s ease-out;
+    
+    
+}
 
+.card:hover {
+    transform: translateY(-10px); /* Adjust the amount of jump */
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 20px;
+}
+
+.card img {
+    border-radius: 10px 0 0 10px;
+    width: 200px;
+    height: auto;
+    flex-shrink: 0;
+    margin-right: 20px;
+    
+}
+
+.card h2 {
+    margin: 10px 0;
+    font-size: 1.5em;
+}
+
+.card p {
+    font-size: 1em;
+    margin: 10px 0;
+}
 /* Header   */
 
 a {
