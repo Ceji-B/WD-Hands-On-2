@@ -2,7 +2,7 @@ html {
     height: 100%;
 }
 body {
-	background: #bcdee7 url("http://victory-design.ru/sandbox/codepen/profile_card/bg.png") no-repeat center center fixed;
+	background: #bcdee7 url("https://i.pinimg.com/736x/2e/3d/68/2e3d6845011de0d24c13dd1e1028a2ff.jpg") no-repeat center center fixed;
     background-size: 120% auto;
     position: fixed;
 	padding: 0px;
@@ -12,23 +12,7 @@ body {
 	font: normal 14px/1.618em "Roboto", sans-serif;
 	-webkit-font-smoothing: antialiased;
 }
-body:before {
-    content: "";
-    height: 0px;
-    padding: 0px;
-    border: 110em solid #313440;
-	position: absolute;
-	left: 50%;
-	top: 100%;
-    z-index: 2;
-    display: block;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-	-webkit-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-    -webkit-animation: puff_portrait 0.5s 1.8s cubic-bezier(0.55, 0.055, 0.675, 0.19) forwards, borderRadius 0.2s 2.3s linear forwards;
-    animation: puff_portrait 0.5s 1.8s cubic-bezier(0.55, 0.055, 0.675, 0.19) forwards, borderRadius 0.2s 2.3s linear forwards;
-}
+
 h1, h2 {
     font-weight: 400;
     margin: 0px 0px 5px 0px;
@@ -531,8 +515,7 @@ p {
     display: block;
     border: 0px;
     font-weight: 700;
-    box-shadow: 0px 0px 14px -7px #b3dbe8;
-    background-image: linear-gradient(45deg, #72ded3 0%, #51b3ce  51%, #adc6ca  100%);
+    box-shadow: 0px 0px 14px -7px #000000;
     cursor: pointer;
     user-select: none;
     -webkit-user-select: none;

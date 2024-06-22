@@ -4,9 +4,9 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
+  <a href="https://github.com/Ceji-B/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/cat-logo.jpg" alt="catto" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">Hands On 2s</h3>
@@ -111,4 +111,8 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Eclipse Hero | Design was Used and also code | https://codepen.io/RAFA3L/pen/RwOMEEa |
+| Html Landing Page | Design was Used and also code | https://codepen.io/nahrowi/pen/GjwYEz |
+| 404 Swing with @property | Design was Used and also code | https://codepen.io/jh3y/pen/oNRBOGY |
+
+
