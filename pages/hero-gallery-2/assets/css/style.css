@@ -637,7 +637,7 @@ cardobody {
 
 
 .cardo {
-  background: #191c29;
+  background: #888888;
   width: var(--card-width);
   height: var(--card-height);
   padding: 3px;
@@ -650,13 +650,13 @@ cardobody {
   text-align: center;
   display: flex;
   font-size: 1.5em;
-  color: rgb(88 199 250 / 0%);
+  color: rgb(255, 255, 255);
   cursor: pointer;
   font-family: cursive;
 }
 
 .cardo1{
-  background: #191c29;
+  background: #686868;
   width: var(--card-width);
   height: var(--card-height);
   padding: 3px;
@@ -669,13 +669,23 @@ cardobody {
   text-align: center;
   display: flex;
   font-size: 1.5em;
-  color: rgb(88 199 250 / 0%);
+  color: rgb(255, 255, 255);
   cursor: pointer;
   font-family: cursive;
 }
 
+img{
+  height: auto;
+  display: block;
+  width: 100%;
+  justify-items: center;
+  align-items: center;
+
+}
+
 .cardo2 {
-  background: #191c29;
+  background: #686868;
+
   width: var(--card-width);
   height: var(--card-height);
   padding: 3px;
@@ -688,13 +698,14 @@ cardobody {
   text-align: center;
   display: flex;
   font-size: 1.5em;
-  color: rgb(88 199 250 / 0%);
+  color: rgb(255, 255, 255);
   cursor: pointer;
   font-family: cursive;
 }
 
 .cardo3{
-  background: #191c29;
+  background: #686868;
+
   width: var(--card-width);
   height: var(--card-height);
   padding: 3px;
@@ -707,13 +718,13 @@ cardobody {
   text-align: center;
   display: flex;
   font-size: 1.5em;
-  color: rgb(88 199 250 / 0%);
+  color: rgb(254, 254, 254)0);
   cursor: pointer;
   font-family: cursive;
 }
 
 .cardo:hover {
-  color: rgb(88 199 250 / 100%);
+  color: rgb(60, 60, 60);
   transition: color 1s;
 }
 .cardo:hover:before, .card:hover:after {
@@ -727,7 +738,7 @@ cardobody {
   width: 104%;
   height: 102%;
   border-radius: 8px;
-  background-image: linear-gradient(var(--rotate), #FFFFFF, #FFFF00);
+  background-image: linear-gradient(var(--rotate), #bdbdbd, #3d3d3d);
   position: absolute;
   z-index: -1;
   top: -1%;
@@ -747,17 +758,16 @@ cardobody {
   margin: 0 auto;
   transform: scale(0.8);
   filter: blur(calc(var(--card-height) / 6));
-  background-image: linear-gradient(var(--rotate), #FFFFFF, #FFFF00);
+  background-image: linear-gradient(var(--rotate), #bdbdbd, #3d3d3d);
   opacity: 1;
   transition: opacity .5s;
   animation: spin 2.5s linear infinite;
 }
 
-#cardo2
 
 
 .cardo2:hover {
-  color: rgb(88 199 250 / 100%);
+  color: rgb(250, 251, 252);
   transition: color 1s;
 }
 .cardo2:hover:before, .card:hover:after {
@@ -771,7 +781,7 @@ cardobody {
   width: 104%;
   height: 102%;
   border-radius: 8px;
-  background-image: linear-gradient(var(--rotate), #FFFFFF, #FFFF00);
+  background-image: linear-gradient(var(--rotate), #bdbdbd, #3d3d3d);
   position: absolute;
   z-index: -1;
   top: -1%;
@@ -791,7 +801,7 @@ cardobody {
   margin: 0 auto;
   transform: scale(0.8);
   filter: blur(calc(var(--card-height) / 6));
-  background-image: linear-gradient(var(--rotate), #FFFFFF, #FFFF00);
+  background-image: linear-gradient(var(--rotate), #bdbdbd, #3d3d3d);
   opacity: 1;
   transition: opacity .5s;
   animation: spin 2.5s linear infinite;
