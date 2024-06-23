@@ -114,5 +114,7 @@ WD-ProjectName
 | Eclipse Hero | Design was Used and also code | https://codepen.io/RAFA3L/pen/RwOMEEa |
 | Html Landing Page | Design was Used and also code | https://codepen.io/nahrowi/pen/GjwYEz |
 | 404 Swing with @property | Design was Used and also code | https://codepen.io/jh3y/pen/oNRBOGY |
+| Home Page Design | Design was Used and also code | https://codepen.io/uiswarup/pen/ZEbYzyR |
+| Magic Card | idea for the card | https://codepen.io/gayane-gasparyan/pen/jOmaBQK |
 
 

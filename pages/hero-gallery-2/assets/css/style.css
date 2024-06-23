@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Roboto:wght@100;300&display=swap');
 @import 'normalize.css';
 
@@ -9,6 +10,18 @@
   margin: 0;
   padding: 0;
 }
+
+
+        .icon-container {
+            display: flex; 
+            justify-content: center;
+            align-items: center;
+        }
+        .icon {
+            width: 100px; 
+            height: auto;
+            margin: 10px; 
+        }
 
 :root {
   --shadow: hsl(0 0% 0% / 0.9);
@@ -164,6 +177,7 @@ h1 span {
 }
 
 .info p {
+
   --x: calc(50% + (var(--swing-x) * 0.5) * 1%);
   animation: swing var(--speed) infinite alternate-reverse var(--ease);
   background: radial-gradient(
@@ -172,7 +186,7 @@ h1 span {
     color-mix(in lch, canvasText, transparent 75%)
   );
   -webkit-background-clip: text;
-  color: transparent;
+  color: grey;
 }
 
 p::selection {
@@ -627,7 +641,7 @@ cardobody {
   background: #212534;
   display: flex;
   position: absolute;
-
+  
   align-items: center;
   flex-direction: column;
   padding-top: 2rem;
@@ -635,6 +649,9 @@ cardobody {
   box-sizing: border-box;
 }
 
+.cardobody p {
+  text-align: justify;
+}
 
 .cardo {
   background: #888888;
@@ -649,10 +666,19 @@ cardobody {
   align-items: center;
   text-align: center;
   display: flex;
+  flex-direction: column; 
   font-size: 1.5em;
   color: rgb(255, 255, 255);
   cursor: pointer;
   font-family: cursive;
+}
+
+.cardo img {
+  width: 100%; /* Ensure the image fills its container */
+  max-width: 100%;
+  height: auto;
+  display: block; /* Center the image horizontally */
+  margin: 0 auto;
 }
 
 .cardo1{
@@ -703,25 +729,6 @@ img{
   font-family: cursive;
 }
 
-.cardo3{
-  background: #686868;
-
-  width: var(--card-width);
-  height: var(--card-height);
-  padding: 3px;
-  bottom: 6rem;
-  margin-left: -40rem;
-  position: absolute;
-  border-radius: 6px;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  display: flex;
-  font-size: 1.5em;
-  color: rgb(254, 254, 254)0);
-  cursor: pointer;
-  font-family: cursive;
-}
 
 .cardo:hover {
   color: rgb(60, 60, 60);
@@ -816,3 +823,24 @@ img{
     --rotate: 360deg;
   }
 }
+
+.icon-container img {
+
+  height: auto;
+  width: 40px;
+  margin: 30px;
+  margin-top: 5rem;
+
+}
+
+.icon-container img:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s;
+}
+
+.line{
+  border-color: #000000;
+  bottom: 8.4rem;
+  width: 200px;
+}
+
